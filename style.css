@@ -1,0 +1,163 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#ffffff;
+}
+ /*tu ide sve sto je globalno*/
+ .container{
+	 width:80%;
+	 margin:auto;
+	 overflow:hidden;
+ }
+ /*tu ide sve kaj je pod "header"*/
+ 
+ header ul{ 
+  margin:0;
+  padding:0;
+  }
+ 
+  header{ 
+   background:#35424a;
+   padding-top:30px;
+   min-height:70px;
+   border-bottom:#FFFAF4 3px solid;
+  }   
+  
+  header a{ 
+   color:#ffffff;
+   text-decoration:none;
+   text-transform:uppercase;
+   font-size:16px;
+  }
+  
+  
+  header li{ 
+   float:left;
+   display:inline;
+   padding: 0px 20px 20px 20px;
+  }
+  
+  header #branding{ 
+   float:left;
+  }
+  
+  header #branding h1{ 
+  margin:0;
+  }
+  
+  header nav{
+   float:right;
+   margin:10px;
+  }
+  
+  footer  {
+	font-size: 15px;
+    bottom:0;
+	position:bottom;
+  }
+  
+  /* sve kaj spada pod "txt" */
+
+  #txt {
+  min-height:400px;
+  background:url('./slike/showcase.png') no-repeat 0px -200px;
+  text-align:center;
+  color:#ffffff;
+}
+  
+  #txt h2{
+	  margin-top:100px;
+	  font-size:55px;
+	  margin-bottom:10px;
+  }
+  
+  #txt p{
+	  font-size:30px;
+  }
+  
+  /*sve kaj spada pod "boxes" */
+  
+  #boxes {
+	 margin-top:50px;
+  }
+  
+  #boxes .box{
+	  float:left;
+	  text-align: center;
+	  width:30%;
+	  padding;10px;
+  }
+  
+  #boxes .box .slike{
+	  width:90px;
+  }
+  
+  /* sve sto spada pod "audi" */
+  
+  #audi {
+  min-height:400px;
+  background:url('./slike/a8.jpg') no-repeat 0px ;
+  text-align:center;
+  color:#ffffff;
+  }
+  
+  #audi h2{
+	  margin-top:100px;
+	  font-size:55px;
+	  margin-bottom:10px;
+  }
+  
+  #audi p{
+	  font-size:30px;
+  }
+  
+  /* sve kaj spada pod "cartxt" i "picturetxt" */
+  
+  #cartxt p{
+	  font-size:15px;
+	  font-weight:normal;
+  }
+  
+  #picturetxt p{
+	  font-size:10px;
+	  color:#696969;
+  }
+  
+  /* sve kaj spada pod "bmw" */
+  
+  #bmw {
+  min-height:400px;
+  background:url('./slike/bmw 7.png') no-repeat -100px -230px;
+  text-align:center;
+  color:#ffffff;
+  }
+  
+  #bmw h2{
+	  margin-top:100px;
+	  font-size:55px;
+	  margin-bottom:10px;
+  }
+  
+  #bmw p{
+	  font-size:30px;
+  }
+  
+  /* sve što spada pod "mb" */ 
+  
+  #mb {
+  min-height:400px;
+  background:url('./slike/mb1.png') no-repeat 0px -500px;
+  text-align:center;
+  color:#ffffff;
+  }
+  
+  #mb h2{
+	  margin-top:100px;
+	  font-size:55px;
+	  margin-bottom:10px;
+  }
+  
+  #mb p{
+	  font-size:30px;
+  }
